@@ -38,6 +38,8 @@ services:
     - 22
     environment:
     - JENKINS_AGENT_SSH_PUBKEY=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCZRuu9ZgUvsqGS5cyDsoMdSJD8aqL5xAKWY4r0qtsd1Uyh2wze+qFj5m7cz4A/tc44PvYEJQMYWcKdgfjbCYnhL+wtg3Kzb32TOXIt/jNf9QSYcLQ4uhz1ahi6R/J10T+AyLq39j+8pXq82kP1Pni3bY+vd3iv9DuyCGdgypW1DeAKa6RkIu8o4SAYsjBBmM0ZWHnuuhHQaNb2W2GskGs5iCbuJG7MsQZ9v0aHSJBjv1CC58lUyh7h53MA/m/FHgFzz+eyLJuWja7rlSUxj41aH6YD2g2I0Y+VgJptW2S5sZPFLaRGtwxSpMuiAV6uiQC9UQHRK2p7XxDINzYPvSb9/MV9xZbzrSuq4DhENospprKa9p/sXtjcYhVFKnGJcLAhuKwuYBZi8GZVtbOvZv2Id75TouPzG+FG5bw/gUwnAOC6bisoAjC8my2XY8doc8DjW1DqTV6bqMJjOYI1lrfhnkYFwRXhtK7fBvpH1vqaGoxCgEDH1I4jTGWZ8iYatyc= ubuntu@ubuntu2004
+    networks:
+      - cicd_network
 
 
 volumes:
