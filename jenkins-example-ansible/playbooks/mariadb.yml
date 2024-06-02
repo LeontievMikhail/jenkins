@@ -23,10 +23,10 @@
       yum_repository:
         name: MariaDB
         description: MariaDB
-        baseurl: http://yum.mariadb.org/10.4/centos8-amd64
+        baseurl: https://mirror.yandex.ru/mirrors/mariadb/mariadb-10.6.18/yum/centos8-amd64/
         enabled: yes
         gpgcheck: yes
-        gpgkey: https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+        gpgkey: https://mirror.yandex.ru/mirrors/mariadb/PublicKey
     - name: Install MariaDB server
       yum:
         name:
